@@ -52,20 +52,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User updateUserByName(String name) {
-		return this.userDao.findByName(name);
-	}
-
-	@Override
 	public User findUserByID(Integer id) {
 		return this.userDao.findById(id).get();
 	}
-
-	@Override
-	public User updateUserById(Integer id) {
-		return this.userDao.findById(id).get();
-	}
-
-
-
 }

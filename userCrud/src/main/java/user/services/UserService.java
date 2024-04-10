@@ -22,8 +22,4 @@ public interface UserService {
 	// find user with the help of id
 	public User findUserByID(Integer id);
 	
-	public User updateUserByName(String name);
-	
-	// update user with the help of id
-	public User updateUserById(Integer id);
 }
